@@ -55,4 +55,4 @@ select customer_name, count(*) as order_count from orders group by customer_name
 All the names have similar spending and orders which are way higher than normal.
 in dataset_generator.py we can see that there is 32 first names and 33 last names combined randomly.
 What causes these high numbers is that there is no unique ID to sort each person by, so all the different customers, randomly generated with the same name and surname, get grouped as one 
-person with one spending amount.
+person with one spending amount. 
