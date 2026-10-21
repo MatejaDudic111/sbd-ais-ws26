@@ -17,7 +17,7 @@ parallel hash join and parallel index-only scans. the index did not improve perf
 query without join
 select sum(num * num) from (select country, count(*) as num from people_100k group by country) as counts;
 
-results: 109,946,508 in 9.673 ms 
+results: 109,946,508 in 9.673 ms
    
  
 query with full table now
