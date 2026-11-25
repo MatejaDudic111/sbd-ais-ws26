@@ -85,7 +85,10 @@ submission. **Deadline: 25.11.2026, 18:00.**
 </details>
 
 
-Results:
+
+
+
+# Results:
 
 
 1. My decision: architecture B (the lake is the truth)
