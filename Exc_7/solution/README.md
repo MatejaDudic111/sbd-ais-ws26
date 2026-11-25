@@ -91,9 +91,10 @@ submission. **Deadline: 25.11.2026, 18:00.**
 # Results:
 
 
-1. My decision: architecture B (the lake is the truth)
+# 1. My decision: architecture B (the lake is the truth)
 
 def run_once():
+
     # 1. where did the last run stop?
 
     start = lake_position()
@@ -126,7 +127,7 @@ Trade off: We need to look into the lake every time to find its position. This g
 
 
 
-2. Explanation of results:
+# 2. Explanation of results:
 
 The example always read the whole topic from the beginning and thus every run copied again everything. Two runs made the lake have 4 million runs instead of 2 million. 2 million were duplicates. 
 
@@ -143,7 +144,7 @@ My method only read what came after the lake_position.
 The idea is that the run either completely counts or its completely discarded.
 
 
-3. Output of check_all():
+# 3. Output of check_all():
 
 situation                                 in lake  duplicates  missing  not loaded    run  check
 -----------------------------------------------------------------------------------------------
