@@ -544,7 +544,7 @@ We changed it into 6 partitions and the cardholders id
 
 If this was not changed the final product would have missed many velocity based frauds (small quick payments) and it would have caused delayed fraud alert because 1 partition would not be able to keep up with the payments' speed.
 
-The team could have noticed the problem by checking the scoreboard and the consumer lag in it and the fraud detection rate (r3) and the alert latency (r4).
+The team could have noticed the problem by checking the scoreboard and the consumer lag in it and the fraud detection rate (r3) and the alert latency (r4) .
 
 ### Beyond this lab
 
